@@ -1,6 +1,6 @@
 import { GoogleGenAI, Type } from "@google/genai";
 
-const ai = new GoogleGenAI({ apiKey: "AIzaSyAsResMJh1bpMFK28zrkOgO6UH9qS2kDdU" });
+const ai = new GoogleGenAI({ apiKey: "AddGeminiAPIKey" });
 
 export interface VisualStepData {
   part_name: string;
